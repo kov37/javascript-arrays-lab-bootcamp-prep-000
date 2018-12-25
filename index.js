@@ -26,3 +26,11 @@ function prependKitten(name) {
   return newarr
 }
 
+function removeLastKitten() {
+  var newarr = kittens.splice(0, kittens.length - 1)
+  return newarr
+}
+
+function removeFirstKitten(name) {
+  var newarr = kittens.splice(1, kittens.length)
+}
